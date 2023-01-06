@@ -119,13 +119,14 @@ class CreateAccount extends StatelessWidget {
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(100),
                         ),
+                        suffixIcon: const Icon(Icons.circle),
+                        suffixIconColor: Colors.blue,
                       ),
                     ),
                     const SizedBox(
                       height: 10,
                     ),
                     TextField(
-                      cursorColor: Colors.black,
                       style: const TextStyle(color: Colors.white),
                       decoration: InputDecoration(
                         labelText: "Password",
@@ -135,6 +136,8 @@ class CreateAccount extends StatelessWidget {
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(100),
                         ),
+                        suffixIcon: const Icon(Icons.circle),
+                        suffixIconColor: Colors.blue,
                       ),
                     ),
                     const SizedBox(
@@ -151,6 +154,8 @@ class CreateAccount extends StatelessWidget {
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(100),
                         ),
+                        suffixIcon: const Icon(Icons.circle),
+                        suffixIconColor: Colors.blue,
                       ),
                     ),
                   ],
